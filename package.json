@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-elgervb",
-  "version": "1.0.0",
+  "name": "@elgervb/eslint-config",
+  "version": "0.0.1",
   "keywords": [
     "eslint",
     "eslintconfig"
