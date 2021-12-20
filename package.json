@@ -1,12 +1,17 @@
 {
   "name": "@elgervb/eslint-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
   "description": "Lint your typescript files",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "configs/eslint.js",
+    "configs/typescript-eslint.js"
+  ],
   "scripts": {
     "test": " \t"
   },
