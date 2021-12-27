@@ -1,11 +1,16 @@
 module.exports = {
   extends: [
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
   ],
   rules: {
     "@typescript-eslint/consistent-type-definitions": "error",
     "@typescript-eslint/dot-notation": "off",
+    "@typescript-eslint/explicit-function-return-type": ["error", {
+      "allowExpressions": true,
+      "allowHigherOrderFunctions": true,
+      "allowDirectConstAssertionInArrowFunctions": true
+    }],
     "@typescript-eslint/explicit-member-accessibility": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/indent": ["error", 2],
@@ -63,10 +68,7 @@ module.exports = {
         "allowTemplateLiterals": true
       }
     ],
-    "@typescript-eslint/semi": [
-      "off",
-      null
-    ],
+    "@typescript-eslint/semi": ["error"],
     "@typescript-eslint/type-annotation-spacing": "error",
     "@typescript-eslint/unified-signatures": "error",
     "@typescript-eslint/restrict-plus-operands": "error",
