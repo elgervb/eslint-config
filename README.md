@@ -14,6 +14,29 @@ Create a `.eslintrc` in the root of your repo with the following contents:
 }
 ```
 
+or for a TypeScript project:
+```
+{
+  "root": true,
+  "extends": ["@elgervb"],
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.js"
+      ],
+      "parserOptions": {
+        "project": [
+          "tsconfig.json",
+          "tsconfig.spec.json"
+        ],
+        "createDefaultProgram": true
+      }
+    }
+  ]
+}
+```
+
 `.eslintignore`
 ```
 node_modules
