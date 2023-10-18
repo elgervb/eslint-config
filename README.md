@@ -46,3 +46,16 @@ coverage
 
 ## Run
 `yarn eslint . --ext .js,.jsx,.ts,.tsxz`
+
+## Editors
+
+### VSCode
+When using [VSCode](https://code.visualstudio.com/), add the following line to `settings.json` so that eslint will fix all fixable problems on save.
+
+```
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
+```
