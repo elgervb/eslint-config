@@ -46,3 +46,11 @@ coverage
 
 ## Run
 `yarn eslint . --ext .js,.jsx,.ts,.tsxz`
+
+
+## Release
+
+```
+npm login
+
+```
