@@ -1,4 +1,7 @@
 module.exports = {
+  plugins: [
+    '@stylistic'
+  ],
   extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking"
@@ -13,7 +16,7 @@ module.exports = {
     }],
     "@typescript-eslint/explicit-member-accessibility": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/indent": ["error", 2],
+    "@stylistic/indent": ["error", 2],
     "@typescript-eslint/member-ordering": ["error", { "default": [
       "signature",
       "field",
@@ -61,15 +64,15 @@ module.exports = {
     ],
     "@typescript-eslint/prefer-function-type": "error",
     "@typescript-eslint/prefer-regexp-exec": "off",
-    "@typescript-eslint/quotes": [
+    "@stylistic/quotes": [
       "error",
       "single",
       {
         "allowTemplateLiterals": true
       }
     ],
-    "@typescript-eslint/semi": ["error"],
-    "@typescript-eslint/type-annotation-spacing": "error",
+    "@stylistic/semi": ["error"],
+    "@stylistic/type-annotation-spacing": "error",
     "@typescript-eslint/unified-signatures": "error",
     "@typescript-eslint/restrict-plus-operands": "error",
     "@typescript-eslint/restrict-template-expressions": "off",

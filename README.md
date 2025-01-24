@@ -3,8 +3,8 @@
 ## Use
 
 ```
-yarn add -D eslint@^7.32.0 @typescript-eslint/parser@^5.3.0 @typescript-eslint/eslint-plugin@^5.3.0
-yarn add -D @elgervb/eslint-config
+yarn add -D eslint@^9.18.0 @typescript-eslint/parser@^8.21.0 @typescript-eslint/eslint-plugin@^8.21.0 @stylistic/eslint-plugin@^2.13.0
+yarn add -D @elgervb/eslint-config@latest
 ```
 
 Create a `.eslintrc` in the root of your repo with the following contents:
